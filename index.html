@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/" href="images/logo.jpeg" />
+    <title>A Couple Cooks</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- bosstrap icons  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+
+    <header>
+    
+<!-- 
+      <div>
+        <a href="" class="logo-title">
+            <i class="fas fa-utensils"></i>
+            <span class="three">A</span> <span class="bro">Couple Cooks</span>
+        </a>
+    </div>  -->
+
+      <section class="flex">
+        <a href="#" class="logo" id="bro">
+          <i class="fas fa-utensils"></i> <span class="three">A</span> couple
+         Cooks
+        </a>
+
+        <nav class="navbar">
+          <a class="active" href="#home">home</a>
+          <a href="#dishes">dishes</a>
+          <a href="#about">about</a>
+          <a href="#menu">menu</a>
+          <!-- <a href="#review">review</a> -->
+          <a href="#order">Catering order</a>
+          <a href="./gallery.html">Gallery</a>
+        </nav>
+
+        <div class="icons">
+          <i class="fas fa-bars" id="menu-bars"></i>
+          <i class="" id="search-icon"></i>
+          <!-- <a href="#" class="fas fa-heart"></a> -->
+          <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+        </div>
+      </section>
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+    <br />
+    <br /><br /><br />
+
+    <!-- home section starts  -->
+
+    <div class="container">
+      <section class="home" id="home">
+        <div class="swiper home-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>our special dish</span>
+                <h3>Chicken Biriyani</h3>
+                <p>
+                  
+Chicken Biryani is a flavorful and aromatic dish that originates from the Indian subcontinent. This classic one-pot dish combines fragrant basmati rice, succulent chicken pieces, and a blend of aromatic spices such as cardamom, cloves, cinnamon, and bay leaves. The dish is known for its vibrant colors, with the rice often infused with saffron or turmeric, giving it a golden hue.
+                </p>
+                <a href="tel:4074764044" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="images/biriyani.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>our special dish</span>
+                <h3>fried chicken</h3>
+                <p>
+                 Crispy Fried Chicken
+                </p>
+                <a href="tel:4074764044" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="images/chicken.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>our special dish</span>
+                <h3>Fruit Custard</h3>
+                <p>
+                  
+Fruit custard is a delectable dessert that combines creamy custard with a vibrant medley of fresh fruits, creating a delightful fusion of smooth textures and natural sweetness. This dessert is a colorful and refreshing treat that appeals to both the eyes and the palate.
+                </p>
+                <a href="tel:4074764044" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="images/custard.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- home section ends -->
+
+    <!-- dishes section starts  -->
+
+    <div class="container">
+      <section class="dishes" id="dishes">
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="heading">popular dishes</h1>
+
+        <div class="box-container">
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" id="eye" class="fas fa-eye"></a>
+            <!-- <a href="#" class="bi bi-currency-dollar " style="width: 100px;border-radius: 2px; ">15.99</a> -->
+
+            <img src="images/cs-removebg-preview.png" alt="" />
+            <h3>Tandoor Chicken</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>$15.99</span>
+            <a href="tel:4074764044" class="btn">Order Now</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <!-- <a href="#" class="fas fa-eye" style="width: 200px; border-radius: 2px;">See Incredient</a> -->
+            <img src="images/dish-2.png" alt="" />
+            <h3>Chicken Biriyani</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+
+            <!-- <div id="incredient">
+              <ul id="incredientText">
+                <li>Chicken Brest</li>
+                <li>Rice</li>
+                <li>Chicken Brest</li>
+                <li>Rice</li>
+                <li></li>
+              </ul>
+              <span>See Incredient</span>
+            </div> -->
+
+            <span>$15.99</span>
+            <a href="tel:4074764044" class="btn">order now</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-3.png" alt="" />
+            <h3>Samosa</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            
+            <span>$15.99</span>
+            <a href="tel:4074764044" class="btn">order now</a>
+          </div>
+
+          
+
+          
+          
+         
+      
+      </section>
+    </div>
+
+    <!-- dishes section ends -->
+
+    <!-- about section starts  -->
+
+    <div class="container">
+      <section class="about" id="about">
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us?</h1>
+
+        <div class="row">
+          <div class="image">
+            <img src="images/about-img.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>best Indian Tradtional Biriyani in the  city </h3>
+            <p>
+             
+Indian traditional biryani is a culinary masterpiece that tantalizes the taste buds with its rich blend of aromatic spices and perfectly cooked rice. Hailing from various regions of India, this dish is a harmonious marriage of fragrant basmati rice and succulent meat, be it tender pieces of chicken, lamb, or flavorful vegetables. What sets Indian biryani apart is its meticulous preparation, involving layers of marinated meat and partially cooked rice, infused with a symphony of spices such as cardamom, cinnamon, cloves, and bay leaves.
+
+The biryani is then slow-cooked, allowing the flavors to meld together, creating a mouthwatering symphony of taste and aroma. Saffron-infused milk is often added to lend the rice a golden hue and a subtle fragrance. The dish is typically garnished with fried onions, fresh coriander, and mint leaves, elevating its visual appeal and adding an extra dimension of flavor.
+
+Each region in India boasts its own unique style of biryani, such as the fragrant Lucknawi biryani, the spicy Hyderabadi biryani, or the flavorful Kolkata biryani. Whether enjoyed with a side of cooling raita or accompanied by a fragrant curry, Indian traditional biryani is a celebration of culinary expertise that has transcended borders and become a global favorite.
+            </p>
+           
+            <div class="icons-container">
+              <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <span>Easy Pick up</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-dollar-sign"></i>
+                <span>easy payments</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>Flexible service</span>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <div class="container">
+      <section class="menu" id="menu">
+        <h3 class="sub-heading">our menu</h3>
+        <!-- <h1 class="heading">today's speciality</h1> -->
+
+        <div class="box-container">
+          <div class="box">
+            <div class="image">
+              <img src="images/biriyani.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Chicken Biriyani</h3>
+              <p>
+               
+               Chicken biryani is a flavorful South Asian dish that features aromatic basmati rice cooked with succulent chicken pieces and a blend of spices, creating a harmonious and aromatic culinary delight.
+              </p>
+              <h3>Large Tray <span style="font-size: medium;">(party of 10-12)</span></h3>
+              <a href="tel:4074764044" class="btn">order now</a>
+              
+              <span class="price">$120.00</span>
+
+              <h3>Medium Tray <span style="font-size: medium;">(party of 6-8)</span></h3>
+              <a href="tel:4074764044" class="btn">order now</a>
+              
+              <span class="price">$100.00</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/Lamb-Biryani-3.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Mutton Biriyani</h3>
+              <p>
+                Mutton Biryani is a flavorful and aromatic Indian rice dish made with basmati rice, tender mutton pieces, and a blend of exotic spices, creating a delicious and satisfying one-pot meal
+              </p>
+              <h3>Large Tray <span style="font-size: medium;">(party of 10-12)</span></h3>
+              <a href="tel:4074764044" class="btn">order now</a>
+              
+              <span class="price">$220.00</span>
+
+              <h3>Medium Tray <span style="font-size: medium;">(party of 6-8)</span></h3>
+              <a href="tel:4074764044" class="btn">order now</a>
+              
+              <span class="price">$200.00</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/beef.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Vegetable Biriyani</h3>
+              <p>
+               
+             Vegetable Biryani is a flavorful and aromatic Indian rice dish made with basmati rice, assorted vegetables, and a blend of aromatic spices.
+              </p>
+              <h3>Large Tray <span style="font-size: medium;">(party of 10-12)</span></h3>
+              <a href="tel:4074764044" class="btn">order now</a>
+              
+              <span class="price">$120.00</span>
+
+              <h3>Medium Tray <span style="font-size: medium;">(party of 6-8)</span></h3>
+              <a href="tel:4074764044" class="btn">order now</a>
+              
+              <span class="price">$100.00</span>
+            </div>
+          </div>
+
+          
+
+          <div class="box">
+            <div class="image">
+              <img src="images/ip-shrimp-biryani-sq-1.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Shrimp Biriyani</h3>
+              <p>
+               
+              Shrimp Biryani is a flavorful South Asian rice dish infused with aromatic spices, basmati rice, and succulent shrimp, creating a delectable and fragrant seafood variation of the classic biryani.
+              </p>
+              <h3>Large Tray <span style="font-size: medium;">(party of 10-12)</span></h3>
+              <a href="tel:4074764044" class="btn">order now</a>
+              
+              <span class="price">$180.00</span>
+
+              <h3>Medium Tray <span style="font-size: medium;">(party of 6-8)</span></h3>
+              <a href="tel:4074764044" class="btn">order now</a>
+              
+              <span class="price">$150.00</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/pulao.jpg" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Hilsha Pulao</h3>
+              <p>
+                
+               Hilsha pulao is a delectable Bengali rice dish featuring fragrant basmati rice cooked with hilsa fish, aromatic spices, and seasoned with the rich flavors of ghee, creating a delightful culinary symphony.
+              </p>
+              <h3>Large Tray <span style="font-size: medium;">(party of 10-12)</span></h3>
+              <a href="tel:4074764044" class="btn">order now</a>
+              
+              <span class="price">$250.00</span>
+
+              <h3>Medium Tray <span style="font-size: medium;">(party of 6-8)</span></h3>
+              <a href="tel:4074764044" class="btn">order now</a>
+              
+              <span class="price">$220.00</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/tandoor-removebg-preview.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Tandoor Chicken</h3>
+              <h1>10 pieces</h1>
+              <p>
+                Tandoor chicken is a flavorful South Asian dish marinated in a blend of spices and yogurt, then traditionally cooked in a clay tandoor oven, resulting in succulent and smoky grilled chicken.
+              </p>
+              <a href="tel:4074764044" class="btn">order now</a>
+              <span class="price">$24.99</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/chicken.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Fried Chicken</h3>
+              <h1>5 pieces</h1>
+              <p>
+                Crispy, golden-brown perfection: fried chicken is a delectable dish featuring tender, juicy meat enveloped in a flavorful, seasoned crust.
+              </p>
+              <a href="tel:4074764044" class="btn">order now</a>
+              <span class="price">$15.99</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/samosa.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Samosa</h3>
+              <h1>10 pieces</h1>
+              <p>
+                A samosa is a popular Indian snack consisting of a triangular-shaped pastry filled with spiced potatoes, peas, and sometimes meat, which is then deep-fried until golden and crispy.
+              </p>
+              <a href="tel:4074764044" class="btn">order now</a>
+              <span class="price">$12.99</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/shrimp.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Shrimp Bhuna</h3>
+              <p>
+                
+              Shrimp Bhuna is a flavorful Indian dish where succulent shrimp are cooked in a rich and aromatic blend of spices, tomatoes, and onions, resulting in a deliciously spicy and tangy curry.
+              </p>
+              <a href="tel:4074764044" class="btn">order now</a>
+              <span class="price">$29.99</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/cast-removebg-preview.png" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Fruits Custard</h3>
+              <p>
+                
+              Creamy fruit custard is a luscious dessert featuring a velvety custard base adorned with a medley of fresh, colorful fruits, offering a delightful blend of textures and flavors.
+              </p>
+              <a href="tel:4074764044" class="btn">order now</a>
+              <span class="price">$19.99</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/moti.JPG" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Motichur Laddu</h3>
+              <h1>10 pieces</h1>
+              <p>
+                
+             
+              Motichoor Laddu is a traditional Indian sweet made from fine gram flour pearls, fried to golden perfection and soaked in sugar syrup, creating a delectable, melt-in-the-mouth dessert.
+              </p>
+              <a href="tel:4074764044" class="btn">order now</a>
+              <span class="price">$12.99</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/seaseme.JPG" alt="" />
+              <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h3>Sesame seed Stick</h3>
+              <p>
+                
+              
+             Sesame seed stick: Crunchy snacks with a delightful blend of roasted sesame seeds, offering a savory and satisfying bite.
+              </p>
+              <a href="tel:4074764044" class="btn">order now</a>
+              <span class="price">$15.99</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- menu section ends -->
+
+    <!-- order section starts  -->
+
+    <div class="container">
+      <section class="order" id="order">
+        <h3 class="sub-heading">Request For Catering</h3>
+        
+
+        <form
+          action="mailto:couplecooks23@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="inputBox">
+            <div class="input">
+              <input
+                type="text"
+                placeholder=" Please Enter  Your Name "
+                name=" Full Name "
+              />
+            </div>
+
+            <div class="input">
+              <input
+                type="number"
+                placeholder=" Please Enter Contact number "
+                name=" Phone "
+              />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <input
+                type="text"
+                placeholder="Please Enter your Event Address"
+                name=" Event Address "
+              />
+            </div>
+            <div class="input">
+              <input
+                type="email"
+                placeholder="Please Enter Your  Email"
+                name=" Email "
+              />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <input
+                type="number"
+                placeholder=" Number Of Guests "
+                name=" Party Size  "
+              />
+            </div>
+
+            <div class="input">
+              <input type="datetime-local" name=" DateTime " />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <textarea
+                name=" Order "
+                placeholder=" What'd you like to serve at the event "
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div class="input">
+              <textarea
+                name=" Special Instruction "
+                placeholder=" Please enter your message for any special Instruction "
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="cater">
+            <input type="submit" value="Submit" class="btn" />
+            <input type="reset" value="Reset" class="btn" />
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <!-- order section ends -->
+
+    <!-- footer section starts  -->
+
+    <div class="container">
+      <section class="footer">
+        <div class="box-container">
+          <!-- <div class="box" id="box"> -->
+            <!-- <h3>Business Hours</h3>
+            <ul style="list-style: none; font-size: 15px">
+              <li>
+                <h4>Sun 11:00 - 22:00</h4>
+              </li>
+              <br />
+              <li>
+                <h4>mon 11:00 - 22:00</h4>
+              </li>
+              <br />
+              <li>
+                <h4>Tue 11:00 - 22:00</h4>
+              </li>
+              <br />
+              <li>
+                <h4>Wed 11:00 - 22:00</h4>
+              </li>
+              <br />
+              <li>
+                <h4>Thu 11:00 - 22:00</h4>
+              </li>
+              <br />
+              <li>
+                <h4>Fri 11:00 - 22:00</h4>
+              </li>
+              <br />
+              <li>
+                <h4>Sat 11:00 - 22:00</h4>
+              </li>
+            </ul> -->
+          <!-- </div> -->
+
+          <div class="box" id="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+
+            <a href="#cater"> catering order</a>
+          </div>
+
+          <div class="box" id="box">
+            <h3>contact info</h3>
+            <a href="#">10763 Hobbit Cir, orlando,Fl 32836</a>
+
+            <a href="#">407-476-4044</a>
+          
+            <a href="#">couplecooks23@gmail.com</a>
+
+            <!-- <ul style="list-style: none; font-size: 15px">Sun 11:00 am - 10:00 pm
+                <li><h4>Address: 6083 W irlo Bronson Memorial Hky</h4></li>
+                <li><h4>City: Kissimmee</h4></li>
+                <li><h4>State: Florida</h4></li>
+                <li><h4>Zip: 34747</h4></li>
+              </ul>
+             -->
+          </div>
+
+          <div class="box" id="box">
+            <h3>follow us</h3>
+            <a href="#"
+              ><i
+                class="bi bi-facebook"
+                style="background-color: rgba(0, 0, 255, 0.264)"
+              ></i
+            ></a>
+            <a href="#"><i class="bi bi-tiktok"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="credit">copyright @ 2023 by <span>A Couple Cooks</span></div>
+      </section>
+    </div>
+
+    <!-- footer section ends -->
+
+    <!-- loader part  -->
+    <!-- <div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div> -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+   
+  </body>
+</html>
